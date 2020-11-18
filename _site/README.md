@@ -1,4 +1,4 @@
-# BGA Guide navigation
+# BGA Mini-list component
 
-[Base Business.gov.au Prototype](https://ausgov.github.io/bga-base-prototype/index.html)
+[Mini list demo](https://ausgov.github.io/bga-mini-list/mini-list.html)
     

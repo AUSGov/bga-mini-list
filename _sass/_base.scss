@@ -65,7 +65,7 @@
        min-height: 64px;
 
        .mini-list-item-title {
-           padding: 16px;
+           padding: 16px 24px 16px 16px;
            display: inline-flex;
            background: $blue-lightest url("../assets/chevron-down-blue.svg") no-repeat;
            background-position: right 24px center;
@@ -74,9 +74,13 @@
 
            h3 {
                font-size: 18px;
-               padding: 0 28px 0 16px;
+               padding: 0 36px 0 16px;
                line-height: 24px;
                width: calc(100% - 32px);
+               
+               @media (max-width: 567px) {
+                   font-size: 16px;
+               }
            }
 
            &:hover {
