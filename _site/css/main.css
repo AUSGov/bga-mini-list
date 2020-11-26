@@ -3244,8 +3244,6 @@ label { display: block; padding: 5px 0; font-weight: bold; }
 
 .mini-list .mini-list-item .mini-list-item-title h3 { font-size: 18px; padding: 0 36px 0 16px; line-height: 24px; width: calc(100% - 32px); }
 
-@media (max-width: 567px) { .mini-list .mini-list-item .mini-list-item-title h3 { font-size: 16px; } }
-
 .mini-list .mini-list-item .mini-list-item-title:hover { background-color: #D5E2F2; }
 
 .mini-list .mini-list-item .mini-list-item-title:hover h3 { text-decoration: underline; }
@@ -3267,6 +3265,12 @@ label { display: block; padding: 5px 0; font-weight: bold; }
 .mini-list .mini-list-item.open .mini-list-item-title { background: #D5E2F2 url("../assets/chevron-up-blue.svg") no-repeat; background-position: right 24px center; }
 
 .mini-list .mini-list-item.open .mini-list-item-content { background: #D5E2F2; }
+
+@media (max-width: 576px) { .mini-list .mini-list-item .mini-list-item-title { padding: 16px 8px; background-position: right 12px center; }
+  .mini-list .mini-list-item .mini-list-item-title h3 { font-size: 16px; padding: 0 24px 0 8px; }
+  .mini-list .mini-list-item .mini-list-item-title svg { width: 24px; height: 24px; }
+  .mini-list .mini-list-item .content-wrapper .mini-list-item-content { padding: 0 24px 16px 40px; }
+  .mini-list .mini-list-item.open .mini-list-item-title { background-position: right 12px center; } }
 
 #exporttool .back-to-bga-header { background: #18335C; padding: 16px; }
 

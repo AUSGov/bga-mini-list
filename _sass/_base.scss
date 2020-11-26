@@ -77,10 +77,6 @@
                padding: 0 36px 0 16px;
                line-height: 24px;
                width: calc(100% - 32px);
-               
-               @media (max-width: 567px) {
-                   font-size: 16px;
-               }
            }
 
            &:hover {
@@ -138,6 +134,33 @@
                background: #D5E2F2;
            }
        }
-   }      
+   }
+    @media (max-width: 576px) {
+        .mini-list-item {
+            .mini-list-item-title {
+                padding: 16px 8px;
+                background-position: right 12px center;
+                
+                h3 {
+                    font-size: 16px;
+                    padding: 0 24px 0 8px;
+                }
+                svg {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            .content-wrapper {
+                .mini-list-item-content {
+                    padding: 0 24px 16px 40px;
+                }
+            }
+            &.open {
+               .mini-list-item-title {
+                   background-position: right 12px center;
+               }
+            }
+        }
+    }
 }
    
